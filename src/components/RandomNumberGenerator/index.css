@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.randomno-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.random-no-card {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+h1 {
+  color: #0b69ff;
+  font-size: 25px;
+  font-weight: 700;
+}
+p {
+  color: #333333;
+  font-size: 17px;
+  font-weight: 500;
+}
+button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.random-no {
+  color: #0b69ff;
+
+  font-weight: 700;
+  font-size: 43px;
+}
