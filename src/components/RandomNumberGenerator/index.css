@@ -25,12 +25,12 @@
 }
 h1 {
   color: #0b69ff;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 p {
   color: #333333;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 500;
 }
 button {
@@ -51,5 +51,16 @@ button {
   color: #0b69ff;
 
   font-weight: 700;
-  font-size: 43px;
+  font-size: 35px;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .random-no {
+    font-size: 43px;
+  }
 }
